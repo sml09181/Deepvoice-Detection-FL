@@ -1,0 +1,95 @@
+Loading project configuration... 
+Success
+INFO :      Starting Flower ServerApp, config: num_rounds=10, no round_timeout
+INFO :      
+INFO :      [INIT]
+INFO :      Using initial global parameters provided by strategy
+INFO :      Starting evaluation of initial global parameters
+INFO :      Evaluation returned no results (`None`)
+INFO :      
+INFO :      [ROUND 1]
+INFO :      configure_fit: strategy sampled 2 clients (out of 8)
+INFO :      aggregate_fit: received 2 results and 0 failures
+WARNING :   No fit_metrics_aggregation_fn provided
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 2]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 3]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 4]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 5]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 6]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 7]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 8]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 9]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 10]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [SUMMARY]
+INFO :      Run finished 10 round(s) in 587.91s
+INFO :          History (loss, distributed):
+INFO :                  round 1: 0.5475497065182728
+INFO :                  round 2: 0.42045295978837377
+INFO :                  round 3: 0.3626457932110452
+INFO :                  round 4: 0.34604969718552464
+INFO :                  round 5: 0.33124802944167875
+INFO :                  round 6: 0.3178197303197429
+INFO :                  round 7: 0.302321320835831
+INFO :                  round 8: 0.30323042901515773
+INFO :                  round 9: 0.2833786549435669
+INFO :                  round 10: 0.29180475404556794
+INFO :          History (metrics, distributed, evaluate):
+INFO :          {'accuracy': [(1, 71.22),
+INFO :                        (2, 77.48),
+INFO :                        (3, 83.34),
+INFO :                        (4, 84.64),
+INFO :                        (5, 85.22),
+INFO :                        (6, 85.8),
+INFO :                        (7, 86.58),
+INFO :                        (8, 86.58),
+INFO :                        (9, 87.1),
+INFO :                        (10, 87.08)]}
+INFO : 

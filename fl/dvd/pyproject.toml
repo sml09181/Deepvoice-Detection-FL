@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pytorchexample"
+version = "1.0.0"
+description = "Federated Learning with PyTorch and Flower (Quickstart Example)"
+license = "Apache-2.0"
+dependencies = [
+    "flwr[simulation]>=1.13.1",
+    "flwr-datasets[vision]>=0.3.0",
+    "torch==2.0.0+cu117",
+    "torchvision==0.15.1+cu117",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.flwr.app]
+publisher = "flwrlabs"
+
+[tool.flwr.app.components]
+serverapp = "pytorchexample.server_app:app"
+clientapp = "pytorchexample.client_app:app"
+
+[tool.flwr.app.config]
+num-server-rounds = 10
+fraction-evaluate = 0.5
+local-epochs = 3
+learning-rate = 0.001
+batch-size = 16
+
+[tool.flwr.federations]
+default = "local-simulation"
+
+[tool.flwr.federations.local-simulation]
+options.num-supernodes = 8
+
+[tool.flwr.federations.local-simulation-gpu]
+options.num-supernodes = 8
+options.backend.client-resources.num-cpus = 1 # each ClientApp assumes to use 2CPUs
+options.backend.client-resources.num-gpus = 0.5 # at most 5 ClientApp will run in a given GPU

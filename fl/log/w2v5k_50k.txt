@@ -1,0 +1,295 @@
+Loading project configuration... 
+Success
+
+(ff) (base) sml09181@kinakuta:~/proj-dvd/Ear-VoMv2/DETECT/fl/quickstart-pytorch$ flwr run . local-simulation-gpu
+Loading project configuration... 
+Success
+INFO :      Starting Flower ServerApp, config: num_rounds=3, no round_timeout
+INFO :      
+INFO :      [INIT]
+INFO :      Using initial global parameters provided by strategy
+INFO :      Starting evaluation of initial global parameters
+INFO :      Evaluation returned no results (`None`)
+INFO :      
+INFO :      [ROUND 1]
+INFO :      configure_fit: strategy sampled 2 clients (out of 8)
+(ClientAppActor pid=473643) Dataset shape: (50000, 5000) (50000,)
+(ClientAppActor pid=473643) Start Training
+(ClientAppActor pid=473640) Dataset shape: (50000, 5000) (50000,)
+(ClientAppActor pid=473640) Start Training
+(ClientAppActor pid=473643) [Epoch  0/1]
+(ClientAppActor pid=473643) Train - loss: 2.092462 acc: 59.6000%
+(ClientAppActor pid=473643) Evaluation - loss: 0.717423 acc: 58.0000%
+(ClientAppActor pid=473643) Best Valid Accuracy: 58.0 at Epoch 0
+(ClientAppActor pid=473640) [Epoch  0/1]
+(ClientAppActor pid=473640) Train - loss: 2.509371 acc: 57.7400%
+(ClientAppActor pid=473640) Evaluation - loss: 1.111064 acc: 60.7200%
+(ClientAppActor pid=473640) Best Valid Accuracy: 60.72 at Epoch 0
+INFO :      aggregate_fit: received 2 results and 0 failures
+WARNING :   No fit_metrics_aggregation_fn provided
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+(ClientAppActor pid=473643) Dataset shape: (50000, 5000) (50000,)
+(ClientAppActor pid=473643) Test - loss: 0.823832 acc: 62.2400%
+(ClientAppActor pid=473640) Dataset shape: (50000, 5000) (50000,) [repeated 2x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/ray-logging.html#log-deduplication for more options.)
+(ClientAppActor pid=473640) Test - loss: 0.776850 acc: 63.5200%
+(ClientAppActor pid=473639) Test - loss: 0.844189 acc: 63.0400%
+(ClientAppActor pid=473642) Dataset shape: (50000, 5000) (50000,)
+(ClientAppActor pid=473642) Test - loss: 0.787874 acc: 63.0400%
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 2]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+(ClientAppActor pid=473639) Dataset shape: (50000, 5000) (50000,)
+(ClientAppActor pid=473639) Start Training
+(ClientAppActor pid=473635) Dataset shape: (50000, 5000) (50000,) [repeated 5x across cluster]
+(ClientAppActor pid=473643) Start Training
+(ClientAppActor pid=473639) [Epoch  0/1]
+(ClientAppActor pid=473639) Train - loss: 0.810386 acc: 62.6600%
+(ClientAppActor pid=473639) Evaluation - loss: 0.690665 acc: 61.8400%
+(ClientAppActor pid=473640) Start Training
+(ClientAppActor pid=473639) Best Valid Accuracy: 61.84 at Epoch 0
+(ClientAppActor pid=473642) Dataset shape: (50000, 5000) (50000,) [repeated 2x across cluster]
+(ClientAppActor pid=473643) [Epoch  0/1]
+(ClientAppActor pid=473643) Train - loss: 0.858029 acc: 61.8400%
+(ClientAppActor pid=473643) Evaluation - loss: 0.676618 acc: 61.9200%
+(ClientAppActor pid=473636) Start Training [repeated 2x across cluster]
+(ClientAppActor pid=473643) Best Valid Accuracy: 61.92 at Epoch 0
+(ClientAppActor pid=473640) [Epoch  0/1]
+(ClientAppActor pid=473640) Train - loss: 0.837428 acc: 62.4800%
+(ClientAppActor pid=473640) Evaluation - loss: 0.662958 acc: 62.9600%
+(ClientAppActor pid=473640) Best Valid Accuracy: 62.96 at Epoch 0
+(ClientAppActor pid=473635) Start Training [repeated 3x across cluster]
+^C(ClientAppActor pid=473642) [Epoch  0/1]
+(ClientAppActor pid=473642) Train - loss: 0.803168 acc: 63.1200%
+(ClientAppActor pid=473642) Evaluation - loss: 0.693695 acc: 62.8000%
+(ClientAppActor pid=473642) Best Valid Accuracy: 62.8 at Epoch 0
+^C
+Aborted.
+^C
+(ff) (base) sml09181@kinakuta:~/proj-dvd/Ear-VoMv2/DETECT/fl/quickstart-pytorch$ ^C
+(ff) (base) sml09181@kinakuta:~/proj-dvd/Ear-VoMv2/DETECT/fl/quickstart-pytorch$ ^C
+(ff) (base) sml09181@kinakuta:~/proj-dvd/Ear-VoMv2/DETECT/fl/quickstart-pytorch$ flwr run . local-simulation-gpu
+Loading project configuration... 
+Success
+INFO :      Starting Flower ServerApp, config: num_rounds=10, no round_timeout
+INFO :      
+INFO :      [INIT]
+INFO :      Using initial global parameters provided by strategy
+INFO :      Starting evaluation of initial global parameters
+INFO :      Evaluation returned no results (`None`)
+INFO :      
+INFO :      [ROUND 1]
+INFO :      configure_fit: strategy sampled 2 clients (out of 8)
+(ClientAppActor pid=485440) Train - loss: 0.637947 acc: 66.2400%
+(ClientAppActor pid=485440) Valid - loss: 0.575243 acc: 71.5200%
+(ClientAppActor pid=485441) Train - loss: 0.530909 acc: 73.5400% [repeated 3x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/ray-logging.html#log-deduplication for more options.)
+(ClientAppActor pid=485441) Valid - loss: 0.471944 acc: 75.6800% [repeated 3x across cluster]
+(ClientAppActor pid=485441) Train - loss: 0.480359 acc: 77.5000% [repeated 2x across cluster]
+(ClientAppActor pid=485441) Valid - loss: 0.453585 acc: 79.4400% [repeated 2x across cluster]
+INFO :      aggregate_fit: received 2 results and 0 failures
+WARNING :   No fit_metrics_aggregation_fn provided
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+(ClientAppActor pid=485440) Test - loss: 0.482727 acc: 78.3200%
+(ClientAppActor pid=485442) Test - loss: 0.490450 acc: 77.6800% [repeated 2x across cluster]
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 2]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+(ClientAppActor pid=485440) Train - loss: 0.497293 acc: 76.2600%
+(ClientAppActor pid=485440) Valid - loss: 0.494602 acc: 77.0400%
+(ClientAppActor pid=485443) Test - loss: 0.490651 acc: 77.2800%
+(ClientAppActor pid=485443) Train - loss: 0.433837 acc: 81.0200% [repeated 4x across cluster]
+(ClientAppActor pid=485443) Valid - loss: 0.404121 acc: 82.0800% [repeated 4x across cluster]
+(ClientAppActor pid=485443) Train - loss: 0.384939 acc: 83.4400% [repeated 4x across cluster]
+(ClientAppActor pid=485443) Valid - loss: 0.419580 acc: 82.2400% [repeated 4x across cluster]
+(ClientAppActor pid=485435) Train - loss: 0.483450 acc: 76.6800% [repeated 4x across cluster]
+(ClientAppActor pid=485435) Valid - loss: 0.460988 acc: 80.3200% [repeated 4x across cluster]
+(ClientAppActor pid=485436) Train - loss: 0.519802 acc: 75.2600% [repeated 3x across cluster]
+(ClientAppActor pid=485436) Valid - loss: 0.450389 acc: 77.6800% [repeated 3x across cluster]
+(ClientAppActor pid=485438) Train - loss: 0.440666 acc: 80.6200% [repeated 2x across cluster]
+(ClientAppActor pid=485438) Valid - loss: 0.400423 acc: 82.6400% [repeated 2x across cluster]
+(ClientAppActor pid=485437) Train - loss: 0.422254 acc: 80.7000% [repeated 4x across cluster]
+(ClientAppActor pid=485437) Valid - loss: 0.392784 acc: 82.3200% [repeated 4x across cluster]
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+(ClientAppActor pid=485438) Test - loss: 0.408059 acc: 81.9200%
+(ClientAppActor pid=485436) Train - loss: 0.413132 acc: 82.0000% [repeated 2x across cluster]
+(ClientAppActor pid=485436) Valid - loss: 0.461185 acc: 80.4000% [repeated 2x across cluster]
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 3]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+(ClientAppActor pid=485437) Test - loss: 0.402352 acc: 82.1600% [repeated 3x across cluster]
+(ClientAppActor pid=485437) Train - loss: 0.413210 acc: 82.7200%
+(ClientAppActor pid=485437) Valid - loss: 0.467342 acc: 79.5200%
+(ClientAppActor pid=485441) Train - loss: 0.420863 acc: 81.0000%
+(ClientAppActor pid=485441) Valid - loss: 0.384601 acc: 83.9200%
+(ClientAppActor pid=485437) Train - loss: 0.389598 acc: 83.5000% [repeated 7x across cluster]
+(ClientAppActor pid=485437) Valid - loss: 0.368741 acc: 82.9600% [repeated 7x across cluster]
+(ClientAppActor pid=485437) Train - loss: 0.367723 acc: 83.8200% [repeated 8x across cluster]
+(ClientAppActor pid=485437) Valid - loss: 0.362337 acc: 84.0800% [repeated 8x across cluster]
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+(ClientAppActor pid=485441) Test - loss: 0.341347 acc: 85.9200%
+(ClientAppActor pid=485440) Train - loss: 0.365718 acc: 84.4800% [repeated 7x across cluster]
+(ClientAppActor pid=485440) Valid - loss: 0.359239 acc: 84.3200% [repeated 7x across cluster]
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 4]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+(ClientAppActor pid=485440) Test - loss: 0.346876 acc: 85.4400% [repeated 3x across cluster]
+(ClientAppActor pid=485438) Train - loss: 0.336537 acc: 86.1200%
+(ClientAppActor pid=485438) Valid - loss: 0.367588 acc: 85.2800%
+(ClientAppActor pid=485443) Train - loss: 0.344679 acc: 85.7400%
+(ClientAppActor pid=485443) Valid - loss: 0.377225 acc: 84.4000%
+(ClientAppActor pid=485438) Train - loss: 0.341222 acc: 86.0400% [repeated 7x across cluster]
+(ClientAppActor pid=485438) Valid - loss: 0.365721 acc: 84.4800% [repeated 7x across cluster]
+(ClientAppActor pid=485437) Train - loss: 0.343720 acc: 86.0000% [repeated 6x across cluster]
+(ClientAppActor pid=485437) Valid - loss: 0.383291 acc: 84.3200% [repeated 6x across cluster]
+(ClientAppActor pid=485438) Train - loss: 0.320751 acc: 86.7600% [repeated 2x across cluster]
+(ClientAppActor pid=485438) Valid - loss: 0.337312 acc: 85.2000% [repeated 2x across cluster]
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+(ClientAppActor pid=485436) Test - loss: 0.323427 acc: 85.8400%
+(ClientAppActor pid=485440) Train - loss: 0.333372 acc: 86.3200% [repeated 7x across cluster]
+(ClientAppActor pid=485440) Valid - loss: 0.352129 acc: 84.8000% [repeated 7x across cluster]
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 5]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+(ClientAppActor pid=485441) Test - loss: 0.321627 acc: 86.4800% [repeated 3x across cluster]
+(ClientAppActor pid=485443) Train - loss: 0.342543 acc: 85.9400%
+(ClientAppActor pid=485443) Valid - loss: 0.336460 acc: 86.0800%
+(ClientAppActor pid=485438) Train - loss: 0.309367 acc: 87.4600%
+(ClientAppActor pid=485438) Valid - loss: 0.365403 acc: 85.3600%
+(ClientAppActor pid=485443) Train - loss: 0.304912 acc: 87.1600% [repeated 7x across cluster]
+(ClientAppActor pid=485443) Valid - loss: 0.333391 acc: 86.2400% [repeated 7x across cluster]
+(ClientAppActor pid=485443) Train - loss: 0.316163 acc: 87.6800% [repeated 8x across cluster]
+(ClientAppActor pid=485443) Valid - loss: 0.324583 acc: 86.2400% [repeated 8x across cluster]
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+(ClientAppActor pid=485437) Test - loss: 0.297361 acc: 87.6800%
+(ClientAppActor pid=485436) Train - loss: 0.312371 acc: 87.9200% [repeated 7x across cluster]
+(ClientAppActor pid=485436) Valid - loss: 0.319557 acc: 85.9200% [repeated 7x across cluster]
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 6]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+(ClientAppActor pid=485442) Test - loss: 0.292771 acc: 88.1600% [repeated 3x across cluster]
+(ClientAppActor pid=485442) Train - loss: 0.300348 acc: 88.2200%
+(ClientAppActor pid=485442) Valid - loss: 0.310247 acc: 87.1200%
+(ClientAppActor pid=485436) Train - loss: 0.287099 acc: 88.3600%
+(ClientAppActor pid=485436) Valid - loss: 0.333433 acc: 85.6800%
+(ClientAppActor pid=485436) Train - loss: 0.283182 acc: 88.3800% [repeated 7x across cluster]
+(ClientAppActor pid=485436) Valid - loss: 0.345236 acc: 85.2800% [repeated 7x across cluster]
+(ClientAppActor pid=485442) Train - loss: 0.271186 acc: 88.9000% [repeated 8x across cluster]
+(ClientAppActor pid=485442) Valid - loss: 0.341619 acc: 85.8400% [repeated 8x across cluster]
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+(ClientAppActor pid=485437) Test - loss: 0.286105 acc: 87.6800%
+(ClientAppActor pid=485437) Train - loss: 0.304416 acc: 88.0600% [repeated 7x across cluster]
+(ClientAppActor pid=485437) Valid - loss: 0.323161 acc: 86.2400% [repeated 7x across cluster]
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 7]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+(ClientAppActor pid=485435) Test - loss: 0.285032 acc: 88.0800% [repeated 3x across cluster]
+(ClientAppActor pid=485443) Train - loss: 0.265735 acc: 89.3200%
+(ClientAppActor pid=485443) Valid - loss: 0.304418 acc: 87.3600%
+(ClientAppActor pid=485435) Train - loss: 0.275882 acc: 89.2400%
+(ClientAppActor pid=485435) Valid - loss: 0.330819 acc: 86.0800%
+(ClientAppActor pid=485443) Train - loss: 0.266386 acc: 89.4000% [repeated 7x across cluster]
+(ClientAppActor pid=485443) Valid - loss: 0.378955 acc: 86.2400% [repeated 7x across cluster]
+(ClientAppActor pid=485443) Train - loss: 0.284210 acc: 88.9800% [repeated 8x across cluster]
+(ClientAppActor pid=485443) Valid - loss: 0.329849 acc: 86.8000% [repeated 8x across cluster]
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+(ClientAppActor pid=485437) Test - loss: 0.282164 acc: 88.6400%
+(ClientAppActor pid=485436) Train - loss: 0.271345 acc: 89.5600% [repeated 7x across cluster]
+(ClientAppActor pid=485436) Valid - loss: 0.306329 acc: 87.2000% [repeated 7x across cluster]
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 8]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+(ClientAppActor pid=485436) Test - loss: 0.276319 acc: 88.1600% [repeated 3x across cluster]
+(ClientAppActor pid=485443) Train - loss: 0.249645 acc: 90.1400%
+(ClientAppActor pid=485443) Valid - loss: 0.334140 acc: 87.7600%
+(ClientAppActor pid=485437) Train - loss: 0.247996 acc: 89.9800%
+(ClientAppActor pid=485437) Valid - loss: 0.278390 acc: 88.3200%
+(ClientAppActor pid=485443) Train - loss: 0.256674 acc: 89.7400% [repeated 7x across cluster]
+(ClientAppActor pid=485443) Valid - loss: 0.307177 acc: 87.7600% [repeated 7x across cluster]
+(ClientAppActor pid=485443) Train - loss: 0.250034 acc: 90.0000% [repeated 8x across cluster]
+(ClientAppActor pid=485443) Valid - loss: 0.320948 acc: 86.6400% [repeated 8x across cluster]
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+(ClientAppActor pid=485440) Test - loss: 0.264407 acc: 89.3600%
+(ClientAppActor pid=485441) Train - loss: 0.263293 acc: 89.2800% [repeated 7x across cluster]
+(ClientAppActor pid=485441) Valid - loss: 0.334883 acc: 86.9600% [repeated 7x across cluster]
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 9]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+(ClientAppActor pid=485438) Test - loss: 0.269696 acc: 89.0400% [repeated 3x across cluster]
+(ClientAppActor pid=485435) Train - loss: 0.248426 acc: 90.1600%
+(ClientAppActor pid=485435) Valid - loss: 0.299893 acc: 87.9200%
+(ClientAppActor pid=485441) Train - loss: 0.254328 acc: 89.7000%
+(ClientAppActor pid=485441) Valid - loss: 0.307884 acc: 87.2800%
+(ClientAppActor pid=485435) Train - loss: 0.235342 acc: 89.9600% [repeated 7x across cluster]
+(ClientAppActor pid=485435) Valid - loss: 0.293726 acc: 88.0000% [repeated 7x across cluster]
+(ClientAppActor pid=485440) Train - loss: 0.233627 acc: 90.0400% [repeated 7x across cluster]
+(ClientAppActor pid=485440) Valid - loss: 0.320051 acc: 86.5600% [repeated 7x across cluster]
+(ClientAppActor pid=485435) Train - loss: 0.241015 acc: 90.2200%
+(ClientAppActor pid=485435) Valid - loss: 0.295866 acc: 87.2000%
+(ClientAppActor pid=485436) Train - loss: 0.231091 acc: 90.8000%
+(ClientAppActor pid=485436) Valid - loss: 0.301754 acc: 87.9200%
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+(ClientAppActor pid=485437) Test - loss: 0.266027 acc: 89.1200%
+(ClientAppActor pid=485440) Train - loss: 0.236143 acc: 90.0800% [repeated 6x across cluster]
+(ClientAppActor pid=485440) Valid - loss: 0.332082 acc: 86.4800% [repeated 6x across cluster]
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [ROUND 10]
+INFO :      configure_fit: strategy sampled 8 clients (out of 8)
+(ClientAppActor pid=485443) Test - loss: 0.260932 acc: 88.8800% [repeated 3x across cluster]
+(ClientAppActor pid=485438) Train - loss: 0.221701 acc: 90.5600%
+(ClientAppActor pid=485438) Valid - loss: 0.362281 acc: 87.4400%
+(ClientAppActor pid=485435) Train - loss: 0.223363 acc: 90.6400%
+(ClientAppActor pid=485435) Valid - loss: 0.320350 acc: 88.3200%
+(ClientAppActor pid=485437) Train - loss: 0.209887 acc: 91.2400% [repeated 7x across cluster]
+(ClientAppActor pid=485437) Valid - loss: 0.302686 acc: 87.6800% [repeated 7x across cluster]
+(ClientAppActor pid=485438) Train - loss: 0.215224 acc: 91.1600% [repeated 8x across cluster]
+(ClientAppActor pid=485438) Valid - loss: 0.325362 acc: 88.3200% [repeated 8x across cluster]
+INFO :      aggregate_fit: received 8 results and 0 failures
+INFO :      configure_evaluate: strategy sampled 4 clients (out of 8)
+(ClientAppActor pid=485441) Test - loss: 0.267809 acc: 88.6400%
+(ClientAppActor pid=485441) Train - loss: 0.214389 acc: 91.3000% [repeated 7x across cluster]
+(ClientAppActor pid=485441) Valid - loss: 0.316247 acc: 88.2400% [repeated 7x across cluster]
+INFO :      aggregate_evaluate: received 4 results and 0 failures
+INFO :      
+INFO :      [SUMMARY]
+INFO :      Run finished 10 round(s) in 648.81s
+INFO :          History (loss, distributed):
+INFO :                  round 1: 0.4846841429324844
+INFO :                  round 2: 0.404717463622742
+INFO :                  round 3: 0.342460409231201
+INFO :                  round 4: 0.3222664087020521
+INFO :                  round 5: 0.2949012125712595
+INFO :                  round 6: 0.28693371247264404
+INFO :                  round 7: 0.27757263179467634
+INFO :                  round 8: 0.26953118110570723
+INFO :                  round 9: 0.2632884760298825
+INFO :                  round 10: 0.2608155852781986
+INFO :          History (metrics, distributed, evaluate):
+INFO :          {'accuracy': [(1, 77.88),
+INFO :                        (2, 82.18),
+INFO :                        (3, 85.78),
+INFO :                        (4, 86.48),
+INFO :                        (5, 88.02),
+INFO :                        (6, 88.0),
+INFO :                        (7, 88.42),
+INFO :                        (8, 89.0),
+INFO :                        (9, 88.64),
+INFO :                        (10, 88.84)]}
+INFO :      
+(ClientAppActor pid=485443) Test - loss: 0.261077 acc: 88.6400% [repeated 3x across cluster]

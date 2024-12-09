@@ -1,0 +1,160 @@
+2024-12-06 19:50:29,316 - root - INFO - X shape: (257865, 5000)
+2024-12-06 19:50:35,569 - root - INFO - Number of classes: 2
+2024-12-06 19:50:35,583 - root - INFO - Train data shapes: (139246, 5000), (139246,)
+2024-12-06 19:50:35,584 - root - INFO - Valid data shapes: (92832, 5000), (92832,)
+2024-12-06 19:50:35,584 - root - INFO - Test data shapes: (25787, 5000), (25787,)
+2024-12-06 19:50:41,345 - root - INFO - Start Training
+2024-12-06 19:51:51,950 - root - INFO - [Epoch  0/50]
+2024-12-06 19:51:51,950 - root - INFO - Train - loss: 0.305484 acc: 86.3781%
+2024-12-06 19:51:51,950 - root - INFO - Evaluation - loss: 0.244372 acc: 89.9280%
+2024-12-06 19:52:52,668 - root - INFO - [Epoch  1/50]
+2024-12-06 19:52:52,668 - root - INFO - Train - loss: 0.220867 acc: 90.7495%
+2024-12-06 19:52:52,668 - root - INFO - Evaluation - loss: 0.193933 acc: 91.7819%
+2024-12-06 19:53:53,279 - root - INFO - [Epoch  2/50]
+2024-12-06 19:53:53,283 - root - INFO - Train - loss: 0.184006 acc: 91.7448%
+2024-12-06 19:53:53,283 - root - INFO - Evaluation - loss: 0.175824 acc: 91.8563%
+2024-12-06 19:54:56,648 - root - INFO - [Epoch  3/50]
+2024-12-06 19:54:56,651 - root - INFO - Train - loss: 0.159716 acc: 92.5650%
+2024-12-06 19:54:56,651 - root - INFO - Evaluation - loss: 0.163682 acc: 92.2311%
+2024-12-06 19:55:53,824 - root - INFO - [Epoch  4/50]
+2024-12-06 19:55:53,855 - root - INFO - Train - loss: 0.143196 acc: 93.2644%
+2024-12-06 19:55:53,855 - root - INFO - Evaluation - loss: 0.130961 acc: 93.8319%
+2024-12-06 19:56:53,539 - root - INFO - [Epoch  5/50]
+2024-12-06 19:56:53,539 - root - INFO - Train - loss: 0.132915 acc: 93.6968%
+2024-12-06 19:56:53,539 - root - INFO - Evaluation - loss: 0.125099 acc: 94.1044%
+2024-12-06 19:57:52,341 - root - INFO - [Epoch  6/50]
+2024-12-06 19:57:52,341 - root - INFO - Train - loss: 0.122878 acc: 94.1865%
+2024-12-06 19:57:52,341 - root - INFO - Evaluation - loss: 0.123581 acc: 94.0689%
+2024-12-06 19:58:55,396 - root - INFO - [Epoch  7/50]
+2024-12-06 19:58:55,396 - root - INFO - Train - loss: 0.117302 acc: 94.3144%
+2024-12-06 19:58:55,396 - root - INFO - Evaluation - loss: 0.117359 acc: 94.4394%
+2024-12-06 19:59:57,700 - root - INFO - [Epoch  8/50]
+2024-12-06 19:59:57,700 - root - INFO - Train - loss: 0.112451 acc: 94.6483%
+2024-12-06 19:59:57,700 - root - INFO - Evaluation - loss: 0.117356 acc: 94.4857%
+2024-12-06 20:00:57,248 - root - INFO - [Epoch  9/50]
+2024-12-06 20:00:57,248 - root - INFO - Train - loss: 0.107094 acc: 94.8451%
+2024-12-06 20:00:57,249 - root - INFO - Evaluation - loss: 0.126220 acc: 94.2768%
+2024-12-06 20:01:54,307 - root - INFO - [Epoch 10/50]
+2024-12-06 20:01:54,307 - root - INFO - Train - loss: 0.102221 acc: 95.0569%
+2024-12-06 20:01:54,307 - root - INFO - Evaluation - loss: 0.110134 acc: 94.8606%
+2024-12-06 20:02:54,788 - root - INFO - [Epoch 11/50]
+2024-12-06 20:02:54,788 - root - INFO - Train - loss: 0.100946 acc: 95.1101%
+2024-12-06 20:02:54,788 - root - INFO - Evaluation - loss: 0.106179 acc: 94.9296%
+2024-12-06 20:03:52,852 - root - INFO - [Epoch 12/50]
+2024-12-06 20:03:52,852 - root - INFO - Train - loss: 0.097183 acc: 95.1956%
+2024-12-06 20:03:52,852 - root - INFO - Evaluation - loss: 0.106904 acc: 95.0685%
+2024-12-06 20:05:03,260 - root - INFO - [Epoch 13/50]
+2024-12-06 20:05:03,260 - root - INFO - Train - loss: 0.093134 acc: 95.4225%
+2024-12-06 20:05:03,260 - root - INFO - Evaluation - loss: 0.103149 acc: 95.0448%
+2024-12-06 20:06:19,623 - root - INFO - [Epoch 14/50]
+2024-12-06 20:06:19,626 - root - INFO - Train - loss: 0.092289 acc: 95.4534%
+2024-12-06 20:06:19,626 - root - INFO - Evaluation - loss: 0.101983 acc: 95.2807%
+2024-12-06 20:07:19,109 - root - INFO - [Epoch 15/50]
+2024-12-06 20:07:19,109 - root - INFO - Train - loss: 0.088816 acc: 95.5510%
+2024-12-06 20:07:19,109 - root - INFO - Evaluation - loss: 0.101498 acc: 95.1278%
+2024-12-06 20:08:18,744 - root - INFO - [Epoch 16/50]
+2024-12-06 20:08:18,751 - root - INFO - Train - loss: 0.087009 acc: 95.6609%
+2024-12-06 20:08:18,752 - root - INFO - Evaluation - loss: 0.096287 acc: 95.5123%
+2024-12-06 20:09:45,258 - root - INFO - [Epoch 17/50]
+2024-12-06 20:09:45,258 - root - INFO - Train - loss: 0.084647 acc: 95.7765%
+2024-12-06 20:09:45,258 - root - INFO - Evaluation - loss: 0.095728 acc: 95.3184%
+2024-12-06 20:11:26,194 - root - INFO - [Epoch 18/50]
+2024-12-06 20:11:26,194 - root - INFO - Train - loss: 0.084081 acc: 95.8153%
+2024-12-06 20:11:26,194 - root - INFO - Evaluation - loss: 0.110928 acc: 94.8563%
+2024-12-06 20:12:42,117 - root - INFO - [Epoch 19/50]
+2024-12-06 20:12:42,117 - root - INFO - Train - loss: 0.081757 acc: 95.8606%
+2024-12-06 20:12:42,117 - root - INFO - Evaluation - loss: 0.093822 acc: 95.6125%
+2024-12-06 20:13:50,059 - root - INFO - [Epoch 20/50]
+2024-12-06 20:13:50,059 - root - INFO - Train - loss: 0.080210 acc: 95.9108%
+2024-12-06 20:13:50,059 - root - INFO - Evaluation - loss: 0.099553 acc: 95.5274%
+2024-12-06 20:15:10,542 - root - INFO - [Epoch 21/50]
+2024-12-06 20:15:10,542 - root - INFO - Train - loss: 0.078953 acc: 96.0408%
+2024-12-06 20:15:10,542 - root - INFO - Evaluation - loss: 0.094136 acc: 95.5252%
+2024-12-06 20:16:30,829 - root - INFO - [Epoch 22/50]
+2024-12-06 20:16:30,869 - root - INFO - Train - loss: 0.078320 acc: 96.0078%
+2024-12-06 20:16:30,869 - root - INFO - Evaluation - loss: 0.092112 acc: 95.5985%
+2024-12-06 20:17:43,614 - root - INFO - [Epoch 23/50]
+2024-12-06 20:17:43,614 - root - INFO - Train - loss: 0.077100 acc: 96.1263%
+2024-12-06 20:17:43,615 - root - INFO - Evaluation - loss: 0.092962 acc: 95.5823%
+2024-12-06 20:19:09,276 - root - INFO - [Epoch 24/50]
+2024-12-06 20:19:09,300 - root - INFO - Train - loss: 0.075639 acc: 96.1435%
+2024-12-06 20:19:09,301 - root - INFO - Evaluation - loss: 0.097153 acc: 95.5220%
+2024-12-06 20:20:34,042 - root - INFO - [Epoch 25/50]
+2024-12-06 20:20:34,043 - root - INFO - Train - loss: 0.075009 acc: 96.2153%
+2024-12-06 20:20:34,043 - root - INFO - Evaluation - loss: 0.092063 acc: 95.7913%
+2024-12-06 20:21:47,618 - root - INFO - [Epoch 26/50]
+2024-12-06 20:21:47,618 - root - INFO - Train - loss: 0.073304 acc: 96.2828%
+2024-12-06 20:21:47,618 - root - INFO - Evaluation - loss: 0.093245 acc: 95.7752%
+2024-12-06 20:22:53,433 - root - INFO - [Epoch 27/50]
+2024-12-06 20:22:53,433 - root - INFO - Train - loss: 0.072623 acc: 96.2505%
+2024-12-06 20:22:53,433 - root - INFO - Evaluation - loss: 0.091278 acc: 95.7999%
+2024-12-06 20:24:11,682 - root - INFO - [Epoch 28/50]
+2024-12-06 20:24:11,682 - root - INFO - Train - loss: 0.073174 acc: 96.2670%
+2024-12-06 20:24:11,682 - root - INFO - Evaluation - loss: 0.091886 acc: 95.7073%
+2024-12-06 20:25:29,889 - root - INFO - [Epoch 29/50]
+2024-12-06 20:25:29,889 - root - INFO - Train - loss: 0.071236 acc: 96.3776%
+2024-12-06 20:25:29,890 - root - INFO - Evaluation - loss: 0.093914 acc: 95.7127%
+2024-12-06 20:26:37,395 - root - INFO - [Epoch 30/50]
+2024-12-06 20:26:37,397 - root - INFO - Train - loss: 0.070746 acc: 96.4322%
+2024-12-06 20:26:37,398 - root - INFO - Evaluation - loss: 0.096616 acc: 95.6944%
+2024-12-06 20:27:45,908 - root - INFO - [Epoch 31/50]
+2024-12-06 20:27:45,908 - root - INFO - Train - loss: 0.070997 acc: 96.3604%
+2024-12-06 20:27:45,908 - root - INFO - Evaluation - loss: 0.093345 acc: 95.8269%
+2024-12-06 20:28:58,894 - root - INFO - [Epoch 32/50]
+2024-12-06 20:28:58,894 - root - INFO - Train - loss: 0.070147 acc: 96.4595%
+2024-12-06 20:28:58,894 - root - INFO - Evaluation - loss: 0.092743 acc: 95.9012%
+2024-12-06 20:30:17,764 - root - INFO - [Epoch 33/50]
+2024-12-06 20:30:17,764 - root - INFO - Train - loss: 0.068512 acc: 96.5105%
+2024-12-06 20:30:17,765 - root - INFO - Evaluation - loss: 0.093683 acc: 95.8904%
+2024-12-06 20:31:33,815 - root - INFO - [Epoch 34/50]
+2024-12-06 20:31:33,817 - root - INFO - Train - loss: 0.068152 acc: 96.5299%
+2024-12-06 20:31:33,817 - root - INFO - Evaluation - loss: 0.092543 acc: 95.9788%
+2024-12-06 20:32:43,690 - root - INFO - [Epoch 35/50]
+2024-12-06 20:32:43,690 - root - INFO - Train - loss: 0.067803 acc: 96.5665%
+2024-12-06 20:32:43,690 - root - INFO - Evaluation - loss: 0.092541 acc: 95.8775%
+2024-12-06 20:33:53,513 - root - INFO - [Epoch 36/50]
+2024-12-06 20:33:53,514 - root - INFO - Train - loss: 0.067409 acc: 96.5924%
+2024-12-06 20:33:53,523 - root - INFO - Evaluation - loss: 0.100254 acc: 95.6017%
+2024-12-06 20:35:12,237 - root - INFO - [Epoch 37/50]
+2024-12-06 20:35:12,237 - root - INFO - Train - loss: 0.065395 acc: 96.7216%
+2024-12-06 20:35:12,237 - root - INFO - Evaluation - loss: 0.097887 acc: 95.7191%
+2024-12-06 20:36:31,342 - root - INFO - [Epoch 38/50]
+2024-12-06 20:36:31,350 - root - INFO - Train - loss: 0.066701 acc: 96.6994%
+2024-12-06 20:36:31,350 - root - INFO - Evaluation - loss: 0.094440 acc: 96.0412%
+2024-12-06 20:37:38,972 - root - INFO - [Epoch 39/50]
+2024-12-06 20:37:38,975 - root - INFO - Train - loss: 0.064255 acc: 96.7583%
+2024-12-06 20:37:38,975 - root - INFO - Evaluation - loss: 0.095533 acc: 95.8635%
+2024-12-06 20:38:46,594 - root - INFO - [Epoch 40/50]
+2024-12-06 20:38:46,594 - root - INFO - Train - loss: 0.063875 acc: 96.8681%
+2024-12-06 20:38:46,594 - root - INFO - Evaluation - loss: 0.089872 acc: 96.0186%
+2024-12-06 20:39:54,045 - root - INFO - [Epoch 41/50]
+2024-12-06 20:39:54,045 - root - INFO - Train - loss: 0.063839 acc: 96.8365%
+2024-12-06 20:39:54,045 - root - INFO - Evaluation - loss: 0.098744 acc: 95.8560%
+2024-12-06 20:41:11,411 - root - INFO - [Epoch 42/50]
+2024-12-06 20:41:11,411 - root - INFO - Train - loss: 0.063473 acc: 96.8444%
+2024-12-06 20:41:11,411 - root - INFO - Evaluation - loss: 0.092018 acc: 96.0423%
+2024-12-06 20:42:21,807 - root - INFO - [Epoch 43/50]
+2024-12-06 20:42:21,807 - root - INFO - Train - loss: 0.061511 acc: 96.9593%
+2024-12-06 20:42:21,807 - root - INFO - Evaluation - loss: 0.090460 acc: 96.1220%
+2024-12-06 20:43:41,414 - root - INFO - [Epoch 44/50]
+2024-12-06 20:43:41,422 - root - INFO - Train - loss: 0.061231 acc: 96.9414%
+2024-12-06 20:43:41,422 - root - INFO - Evaluation - loss: 0.097509 acc: 95.9540%
+2024-12-06 20:44:56,578 - root - INFO - [Epoch 45/50]
+2024-12-06 20:44:56,578 - root - INFO - Train - loss: 0.060753 acc: 97.0218%
+2024-12-06 20:44:56,578 - root - INFO - Evaluation - loss: 0.095046 acc: 95.9917%
+2024-12-06 20:46:13,995 - root - INFO - [Epoch 46/50]
+2024-12-06 20:46:13,995 - root - INFO - Train - loss: 0.059121 acc: 97.0750%
+2024-12-06 20:46:13,996 - root - INFO - Evaluation - loss: 0.115520 acc: 95.5931%
+2024-12-06 20:47:26,927 - root - INFO - [Epoch 47/50]
+2024-12-06 20:47:26,927 - root - INFO - Train - loss: 0.058408 acc: 97.1518%
+2024-12-06 20:47:26,927 - root - INFO - Evaluation - loss: 0.094178 acc: 96.0574%
+2024-12-06 20:48:43,802 - root - INFO - [Epoch 48/50]
+2024-12-06 20:48:43,802 - root - INFO - Train - loss: 0.058233 acc: 97.1597%
+2024-12-06 20:48:43,802 - root - INFO - Evaluation - loss: 0.094056 acc: 96.1500%
+2024-12-06 20:49:59,884 - root - INFO - [Epoch 49/50]
+2024-12-06 20:49:59,885 - root - INFO - Train - loss: 0.057469 acc: 97.2337%
+2024-12-06 20:49:59,885 - root - INFO - Evaluation - loss: 0.089819 acc: 96.1296%
+2024-12-06 20:50:00,535 - root - INFO - Best Valid Accuracy: 96.15003447087211 at Epoch 48
+2024-12-06 20:50:00,537 - root - INFO - Epoch for test: 48
+2024-12-06 20:50:04,011 - root - INFO - Test - loss: 0.097804 acc: 95.8661%
+2024-12-06 20:50:04,019 - root - INFO - All Done
