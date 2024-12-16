@@ -1,8 +1,10 @@
 # Deep Voice Detection with FedAvg
 
+<br>
 
 *2024년 2학기 이화여자대학교 도전학기제 프로젝트로 진행하였음.*
 
+<br>
 
 ## Overview
 I developed a new DeepVoice detection model and applied techniques such as Federated Learning (FL) and unstructured pruning. The model is based on a modified version of the Deep Fingerprinting (DF) model, which I convert the [official TensorFlow implementation](https://dl.acm.org/doi/10.1145/3243734.3243768) to PyTorch, based on [NetCLR](https://github.com/SPIN-UMass/Realistic-Website-Fingerprinting-By-Augmenting-Network-Traces/blob/main/artifacts/src/NetCLR/pre-training.ipynb) official implementation.
