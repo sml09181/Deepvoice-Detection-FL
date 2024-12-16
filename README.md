@@ -76,3 +76,4 @@ $ flwr run . local-simulation-gpu
 - [ASVspoof 2019](https://www.asvspoof.org/index2019.html)
 - [Fake-or-Real (FoR)](https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset/data)
 - [Flower Quickstart-Pytorch](https://github.com/adap/flower/tree/main/examples/quickstart-pytorch)
+- [Unstructured Pruning](https://github.com/jhson989/pytorch-pruning-basic)
