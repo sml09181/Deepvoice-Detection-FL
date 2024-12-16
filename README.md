@@ -17,8 +17,7 @@ DETECT
 │   │	├── client_app.py   # Define ClientApp
 │   │	├── server_app.py   # Define ServerApp
 │   |	└── task.py         # Define model, training and data loading
-│   ├── pyproject.toml      # Project metadata like dependencies and configs
-│   └── README.md
+│   └── pyproject.toml      # Project metadata like dependencies and configs
 └── README.md
 ```
 
