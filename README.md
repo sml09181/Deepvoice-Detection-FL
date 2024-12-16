@@ -1,6 +1,8 @@
 # Deep Voice Detection with FedAvg
 <br>
+
 *2024년 2학기 이화여자대학교 도전학기제 프로젝트로 진행하였음.*
+
 <br>
 
 ## Overview
