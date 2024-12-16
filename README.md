@@ -29,6 +29,19 @@ DETECT
 ## Datasets
 The [ASVspoof 2019](https://www.asvspoof.org/index2019.html) dataset, which includes Logical Access (LA) and Physical Access (PA) attacks, was used for this task. I focused on the LA dataset, which is more relevant for DeepVoice voice phishing detection. Additionally, the [Fake-or-Real (FoR)](https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset/data) dataset was also used. The combined datasets contain 257,865 speech samples: 164,977 fake and 92,888 real samples. I conducted experiments using raw features (numpy arrays) and Wav2Vec features extracted using a `Wav2Vec` feature extractor.
 
+## Preprocess
+After downloading each dataset, you need to reorganize the raw dataset into the `/label/filename.flac` format, where the label is either fake or real. You can do this by running the following command:
+
+```
+$ reorg_raw.py
+```
+
+You can also extract and save the raw features and w2v features as NumPy arrays. This process includes padding.
+
+```
+$ extract_feature.py
+```
+
 ## Non-FL Setting
 
 Run the following Python script to train the model in the Non-FL setting:
