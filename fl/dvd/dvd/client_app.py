@@ -3,10 +3,9 @@
 import torch
 from flwr.client import ClientApp, NumPyClient
 from flwr.common import Context
+
 from dvd.utils import set_device
-
 from dvd.task import Net, get_weights, load_data, set_weights, test, train
-
 
 # Define Flower Client
 class FlowerClient(NumPyClient):
@@ -37,7 +36,6 @@ class FlowerClient(NumPyClient):
         loss, accuracy = test(self.net, self.valloader, self.device)
         return loss, len(self.valloader.dataset), {"accuracy": accuracy}
 
-
 def client_fn(context: Context):
     """Construct a Client that will be run in a ClientApp."""
 
@@ -53,7 +51,6 @@ def client_fn(context: Context):
 
     # Return Client instance
     return FlowerClient(trainloader, valloader, local_epochs, learning_rate).to_client()
-
 
 # Flower ClientApp
 app = ClientApp(client_fn)
