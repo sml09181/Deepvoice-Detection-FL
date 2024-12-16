@@ -66,3 +66,9 @@ $ cd fl/dvd
 $ flwr run . local-simulation-gpu
 ```
 
+## Reference
+- [DF](https://dl.acm.org/doi/10.1145/3243734.3243768)
+- [NetCLR](https://github.com/SPIN-UMass/Realistic-Website-Fingerprinting-By-Augmenting-Network-Traces/blob/main/artifacts/src/NetCLR/pre-training.ipynb)
+- [ASVspoof 2019](https://www.asvspoof.org/index2019.html)
+- [Fake-or-Real (FoR)](https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset/data)
+- [Flower Quickstart-Pytorch](https://github.com/adap/flower/tree/main/examples/quickstart-pytorch)
