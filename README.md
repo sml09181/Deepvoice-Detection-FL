@@ -66,6 +66,10 @@ $ cd fl/dvd
 $ flwr run . local-simulation-gpu
 ```
 
+## Related Repository
++ [Ear-VoM](https://github.com/sml09181/Ear-VoM)
++ [Korean-SV2TTS](https://github.com/sml09181/Korean-SV2TTS)
+
 ## Reference
 - [DF](https://dl.acm.org/doi/10.1145/3243734.3243768)
 - [NetCLR](https://github.com/SPIN-UMass/Realistic-Website-Fingerprinting-By-Augmenting-Network-Traces/blob/main/artifacts/src/NetCLR/pre-training.ipynb)
