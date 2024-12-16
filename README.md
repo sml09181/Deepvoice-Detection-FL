@@ -9,7 +9,7 @@ The project is organized as follows:
 
 ```
 DETECT
-├── preprocess			# preprocess raw data
+├── preprocess          # preprocess raw data
 ├── non_fl				# traditional classification with DF
 ├── fl					# federated learning with flwr
 │   ├── dvd					# DeepVoice Detection
@@ -17,8 +17,8 @@ DETECT
 │   │	├── client_app.py   # Define ClientApp
 │   │	├── server_app.py   # Define ServerApp
 │   |	└── task.py         # Define model, training and data loading
-│	├── pyproject.toml      # Project metadata like dependencies and configs
-│	└── README.md
+│   ├── pyproject.toml      # Project metadata like dependencies and configs
+│   └── README.md
 └── README.md
 ```
 
@@ -42,7 +42,7 @@ $ python non_fl/pruning.py
 ```
 
 ## FL Setting
-For the FL setting, I used the FedAvg algorithm with the [Flower](flower.ai) framework. 
+For the FL setting, FedAvg algorithm with the [Flower](flower.ai) framework is used. I refered to Flower's official pytorch [guideline](https://github.com/adap/flower/tree/main/examples/quickstart-pytorch). Here, the model and dataset parts have been completely changed.
 Run the following Python script to train the model in the FL setting:
 
 ```
