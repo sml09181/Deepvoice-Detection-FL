@@ -31,14 +31,14 @@ The [ASVspoof 2019](https://www.asvspoof.org/index2019.html) dataset, which incl
 Run the following Python script to train the model in the Non-FL setting:
 
 ```
-$ python non_fl/train.py
+$ python non_fl/main.py
 ```
 
 Additionally, I applied unstructured pruning to the DF model, focusing on the 1D convolution layers. 
 Run the following Python script to apply pruning and train the model:
 
 ```
-$ python non_fl/pruning.py
+$ python non_fl/main.py --apply_pruning
 ```
 
 ## FL Setting
